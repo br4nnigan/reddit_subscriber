@@ -4,7 +4,7 @@
 to transfer your subscriptions to a fresh account
 
 1. open the console and run the following function on https://www.reddit.com/subreddits/mine/  
-this will create urls or all your subs in chunks of 100 (url musn't be too long)
+this will create urls of all your subs in chunks of 100 (url musn't be too long)
 
 	    (function () {
 	        var multiredditElement = document.querySelector(".subscription-box ul>a");
