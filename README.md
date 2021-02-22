@@ -2,7 +2,7 @@
 
 to transfer your subscriptions to a fresh account
 
-1. run following function on https://www.reddit.com/subreddits/mine/
+1. run following function on https://old.reddit.com/subreddits/mine/
 this will create urls or all your subs in chunks of 100 (url mustn't be too long)
 
         (function () {
@@ -16,7 +16,7 @@ this will create urls or all your subs in chunks of 100 (url mustn't be too long
                     while ( a_subreddits.length ) {
                         var hundred = a_subreddits.splice(0, 100);
 
-                        console.log( "https://www.reddit.com/r/" + hundred.join("+") );
+                        console.log( "https://old.reddit.com/r/" + hundred.join("+") );
                     }
                 }
             }
