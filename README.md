@@ -20,7 +20,7 @@
         })();
 
 
-2. [Clear](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/) all reddit cookies/storage, close all reddit tabs and get a new IP (via your router interface or just power off the router). If you skip this reddit WILL connect your accounts (internally)
+2. [Clear](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/) all reddit cookies/storage, close all reddit tabs and get a new IP (via your router interface or just power off the router). If you skip this step reddit WILL connect your accounts (internally) and continue profiling you and you also risk getting punished for ban evasion.
 
 
 3. Log into your new account, go to each url logged by previous function and run the following function on each. You will get notified when you're subbed to all subreddits of the chunk.
