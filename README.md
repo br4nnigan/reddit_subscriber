@@ -1,8 +1,8 @@
 # reddit_subscriber
 
-transfer your subscriptions to a fresh account
+How to transfer your subscriptions to a fresh account
 
-1. With your old account open https://old.reddit.com/subreddits/mine/ and run the following function in the [browser console](https://support.optimizely.com/hc/en-us/articles/4410284097549-Open-the-developer-console) (copy paste + enter). This will output urls of all your subs in chunks of 100 (url mustn't be too long)
+1. With your old account open https://old.reddit.com/subreddits/mine/ and run (copy paste + enter) the following function in the [browser console](https://support.optimizely.com/hc/en-us/articles/4410284097549-Open-the-developer-console). This will output urls of all your subs in chunks of 100 (url mustn't be too long)
 
         (function () {
             var multiredditElement = document.querySelector(".subscription-box ul>a");
