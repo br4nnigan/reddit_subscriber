@@ -43,4 +43,4 @@
         })();
 
 
-4.  success! You've got a fresh identity with all your subscriptions.
+4.  Success! You've got a fresh identity with all your subscriptions.
