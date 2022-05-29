@@ -23,7 +23,7 @@
 2. [Clear](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/) all reddit cookies/storage and get a new IP (via your router interface or just power off the router). If you skip this reddit WILL connect your accounts (internally)
 
 
-3. Log into your new account and go to each url logged by previous function and run the following on each. You will get notified when you're subbed to all subreddits of the chunk.
+3. Log into your new account and go to each url logged by previous function (rightclick>copy link location) and run the following function on each. You will get notified when you're subbed to all subreddits of the chunk.
 
         (function () {
             var a = document.querySelectorAll(".subscribe-button a.add.active");
