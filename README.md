@@ -2,9 +2,7 @@
 
 transfer your subscriptions to a fresh account
 
-1. open https://old.reddit.com/subreddits/mine/ and run following function in the [browser console](https://support.optimizely.com/hc/en-us/articles/4410284097549-Open-the-developer-console)
-
-this will output urls of all your subs in chunks of 100 (url mustn't be too long)
+1. open https://old.reddit.com/subreddits/mine/ and run following function in the [browser console](https://support.optimizely.com/hc/en-us/articles/4410284097549-Open-the-developer-console). This will output urls of all your subs in chunks of 100 (url mustn't be too long)
 
         (function () {
             var multiredditElement = document.querySelector(".subscription-box ul>a");
