@@ -1,10 +1,10 @@
 # reddit_subscriber
 
-to transfer your subscriptions to a fresh account
+transfer your subscriptions to a fresh account
 
-1. run following function in the browser console on https://old.reddit.com/subreddits/mine/
+1. open https://old.reddit.com/subreddits/mine/ and run following function in the [browser console](https://support.optimizely.com/hc/en-us/articles/4410284097549-Open-the-developer-console)
 
-this will create urls of all your subs in chunks of 100 (url mustn't be too long)
+this will output urls of all your subs in chunks of 100 (url mustn't be too long)
 
         (function () {
             var multiredditElement = document.querySelector(".subscription-box ul>a");
@@ -24,10 +24,10 @@ this will create urls of all your subs in chunks of 100 (url mustn't be too long
         })();
 
 
-2. log into your new account. If you don't get a new IP/clear ALL site cookies before switching accounts reddit WILL link them
+2. [Clear](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/) all reddit cookies/storage and get a new IP (via your router interface or just power off the router). If you skip this reddit WILL connect your accounts (internally)
 
 
-3. goto each url logged by previous function and run the following on each. You will get notified when you're subbed to all subs of the chunk.
+3. Log into your new account and go to each url logged by previous function and run the following on each. You will get notified when you're subbed to all subreddits of the chunk.
 
         (function () {
             var a = document.querySelectorAll(".subscribe-button a.add.active");
