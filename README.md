@@ -1,6 +1,6 @@
 # How to easily transfer your reddit subscriptions to a fresh account using scripts
 
-1. With your old account open https://old.reddit.com/subreddits/mine/ and run (copy paste + enter) the following function in the [browser console](https://support.optimizely.com/hc/en-us/articles/4410284097549-Open-the-developer-console). This will simply output urls of all your subs in chunks of 100 (because the url mustn't be too long). Temporarily copy paste the urls into some empty text document. Use right click, then `copy link` on the url, don't just select the text because it is truncated.
+1. With your old account open https://old.reddit.com/subreddits/mine/ and run (copy paste + enter) the following function in the [browser console](https://support.optimizely.com/hc/en-us/articles/4410284097549-Open-the-developer-console). This will simply output urls of all your subs in chunks of 100 (because the url mustn't be too long). Temporarily copy paste the urls into some empty text document. To do that, use right click, then `copy link` on the url, don't just select the text because it is truncated.
 
         (function () {
             var multiredditElement = document.querySelector(".subscription-box ul>a");
